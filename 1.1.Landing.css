@@ -1,0 +1,15 @@
+*{
+	font-family: "sofia sans";
+}
+
+html{
+	scroll-behavior: smooth ;
+}
+
+#form{
+	background-color: red !important;
+}
+#me{
+	border:2px solid black;
+}
+
