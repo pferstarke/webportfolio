@@ -1,15 +1,61 @@
-*{
+body{
 	font-family: "sofia sans";
+	background-image: url(./images/paw.png);
+	font-weight: ;
 }
 
 html{
 	scroll-behavior: smooth ;
 }
 
-#form{
-	background-color: red !important;
-}
 #me{
 	border:2px solid black;
 }
+
+#jeri{
+	color: #8D05F7;
+	font-weight: bolder;
+}
+
+.nav-link{
+	text-decoration: none ;
+	color: #982FEA !important;
+}
+
+#main-div{
+	padding: 10px;
+	margin:10px;
+	border: 3px solid white;
+}
+
+#projects{
+	list-style-type: none;
+}
+
+.card{
+	background-color: #C3E679;
+}
+
+.mb-0:hover{
+	 background-color: yellow;
+	 border-radius: 5px;
+}
+
+a:hover{
+	background-color: white;
+	border-radius: 5px;
+}
+
+#send:hover{
+	color: #EE34E8;
+}
+
+#tools{
+	background-color: #C3E679;
+}
+
+#form{
+	background-color: #C3E679 !important;
+}
+
 
