@@ -1,0 +1,162 @@
+*{
+	font-family: "Open Sans";
+	margin: 0;
+	padding: 0;
+}
+
+nav{
+	position: sticky;
+	top: 0px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	padding-left: 100px;
+	padding-right: 100px;
+	border-bottom: 1px solid gray;
+	background-color: whitesmoke;
+	animation-name: example;
+	animation-duration: 10s;
+	animation-iteration-count: 100;
+}
+
+@keyframes example {
+  25% {background-color: lightgreen;}
+  50% {background-color: yellow;}
+  75%  {background-color: red;}
+  100% {background-color: skyblue;}
+  }
+
+
+.nav-logo{
+	display: inline-block;
+}
+
+.right-nav{
+	float: right;
+}
+
+.nav{
+	display: inline-block;
+	text-decoration: none;
+	margin-left: 13px;
+	padding-right: 13px;
+}
+
+.tuitt-button{
+	border: 1px;
+	background-color: #c2195b;
+	color: white;
+	border-radius: 50px;
+	width: 120px;
+	height: 40px;
+	font-weight: bold;
+}
+
+
+
+#bg-image{
+	background-image: url(https://d3ojsfl21hfxhc.cloudfront.net/assets/zuitt/programdetails2_w.jpg);
+	background-repeat: no-repeat;
+	color: white;
+	background-position: center;
+	background-color: scroll;
+	background-size: 100vw;
+	min-height: 300px;
+}
+
+.front-bg{
+	min-height: 400px;
+	background-color: rgba(0,0,0, 0.4);
+}
+
+.container{
+	border: 50vw;
+	text-align: right;
+	padding-left: 2rem;
+	margin-left: 45%;
+	margin-right: 9%;
+}
+
+
+.title{
+	font-family: "Zilla Slab";
+	font-size: 45px;
+	font-weight: bolder;
+	margin-bottom: 1rem;
+}
+
+.subtitle{
+	margin-left: 13rem;
+	font-size: 22px;
+	margin-bottom: 1rem;
+}
+
+.apply-button{
+	border: 1px black;
+	border-radius: 250px;
+	background-color: #c2195b;
+	color: white;
+	width: 200px;
+	height: 45px;
+	font-size: 17px;
+	font-weight: bold;
+	animation-name: tbutt;
+	animation-duration: 10s;
+	animation-iteration-count: 100;
+}
+
+@keyframes tbutt {
+  25% {color: lightgreen;}
+  50% {color: yellow;}
+  75%  {color: red;}
+  100% {bcolor: skyblue;}
+}
+
+
+.title-2{
+	font-family: "Zilla Slab";
+	font-size: 45px;
+	font-weight: bolder;
+	text-align: center;
+}
+
+.intro{
+	text-align: center;
+	margin: 12em;
+	margin-left: 17.5em;
+	margin-right: 17.5em;
+}
+
+.intro-description{
+	text-align: justify !important;
+	margin-top: 5em;;
+}
+
+.pre-footer{
+	text-align: center;
+	margin-left: 14em;
+	margin-right: 14em;
+}
+
+.prefooter-description{
+	margin-top: 3rem;
+	margin-bottom: 1rem;
+}
+
+.book-button{
+	border-radius: 50px;
+	height: 35px;
+	width: 150px;
+	background-color: #336589;
+	color: white;
+	font-weight: bold;
+	border: 1px #336589;
+}
+
+footer{
+	text-align: center;
+	margin: 10em;
+}
+
+footer > span {
+	margin: 10px;
+}

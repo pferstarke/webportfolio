@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>semantic HTML</title>
+</head>
+<body>
+
+	<header>
+		<h1>Zuitt IT Solutions</h1>
+	</header>
+
+	<main>
+		<section>
+			<h2>Products offered</h2>
+			
+			<table border="1">
+				
+				<thead>
+					
+					<tr>
+						<th>Package</th>
+						<th>Price</th>
+						<th>Description</th>
+					</tr>
+				<thead>
+					<tbody>
+						<tr>
+							<td>Basic</td>
+							<td>&#8369; 500.0</td>
+							<td>Package includes a fully functional website with desired specifications</td>
+						</tr>
+						
+
+					</tbody>
+
+					<tfoot>
+						<th colspan="3">Additional features after initial project is inclusive of charges</th>
+					</tfoot>
+
+			</table>
+		</section>
+
+		<section>
+			<h2>Contact Form</h2>
+			
+
+			<form action="https://google.com">
+				<label for="first_name">First name:</label><br/>
+				<input type="text" name="first_name" id="first_name" required><br/>
+
+				<label for="last_name">Last name:</label><br/>
+				<input type="text" name="last_name" id="last_name" required><br/>
+
+				<label for="email">Email:</label><br/>
+				<input type="email" name="email" id="email" required><br/>
+
+				<label for="contact_number">Contact number:</label><br/>
+				<input type="text" name="text" id="contact_number" required><br/>
+
+				<label for="service_type">Service Type:</label><br/>
+				<select name="service" id="service_type">
+					<option value="front_end_programming">Front End Programming</option>
+					<option value="back_end_programming">Back End Programming</option>
+					<option value="full_stack_programming">Full Stack Programming</option>
+				</select><br/>
+
+				<label>Preferred Contact: </label><br/>
+				<input type="checkbox" name="contact" id="preferred_contact" value="preferred_contact">
+				<label for="preferred_contact">Email</label><br/>
+
+				<input type="checkbox" name="contact" id="phone" value="phone">
+				<label for="phone">Phone</label><br/>
+
+				<label>Package:</label><br/>
+
+				<input type="radio" name="new_user" id="user-type1" value ="yes">
+				<label for="package1">Basic</label><br/>
+
+				<input type="radio" name="new_user" id="user-type1" value ="premium">
+				<label for="package2">Premium</label><br/>
+
+				<label for="message"> Message: </label><br/>
+				<textarea name="message" rows="150" id="message"></textarea><br/>
+
+
+				<button type="submit">Send Inquiry</button><br/>
+
+				<button type="reset">Reset</button>
+
+
+
+			</form>
+		</section>
+	</main>
+
+</body>
+</html>
