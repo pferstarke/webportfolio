@@ -1,11 +1,15 @@
 body{
 	font-family: "sofia sans";
 	background-image: url(./images/paw.png);
-	font-weight: ;
 }
 
 html{
 	scroll-behavior: smooth ;
+}
+
+.content{
+	background-color: rgba(0, 0, 0, 0.4);
+	min-height: 100vh;
 }
 
 #me{
@@ -13,13 +17,11 @@ html{
 }
 
 #jeri{
-	color: #8D05F7;
 	font-weight: bolder;
 }
 
 .nav-link{
 	text-decoration: none ;
-	color: #982FEA !important;
 }
 
 #main-div{
@@ -42,7 +44,7 @@ html{
 }
 
 a:hover{
-	background-color: white;
+	background-color: #F18959;
 	border-radius: 5px;
 }
 
@@ -58,4 +60,66 @@ a:hover{
 	background-color: #C3E679 !important;
 }
 
+#credits{
+	color: white;
+}
 
+
+#cm{
+	font-weight: bolder;
+}
+
+#git{
+	width: 2px;
+ 	height: 50px;
+  	background: #41E803;
+  	transition: width 2s;
+}
+
+#git:hover {
+  width: 70%;
+}
+
+#sub{
+	width: 2px;
+ 	height: 50px;
+  	background: #ADE803;
+  	transition: width 2s;
+}
+
+#sub:hover {
+  width: 60%;
+}
+
+#ht{
+	width: 2px;
+ 	height: 50px;
+  	background: #E4E803;
+  	transition: width 2s;
+}
+
+#ht:hover {
+  width: 50%;
+}
+
+#cs{
+	width: 2px;
+ 	height: 50px;
+  	background: #E88703;
+  	transition: width 2s;
+}
+
+#cs:hover {
+  width: 40%;
+}
+
+#bs{
+	width: 2px;
+ 	height: 50px;
+  	background: #E84C03;
+  	transition: width 2s;
+}
+
+#bs:hover {
+  width: 30%;
+}
