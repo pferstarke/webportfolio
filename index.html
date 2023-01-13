@@ -15,10 +15,11 @@
 
 </head>
 
-<body class="text-center container-fluid" id="top">
+<body class="text-center container-fluid">
+	<div id="top"></div>
 
 	<div class="content" id="main-div">
-		<nav class="navbar navbar-expand-lg navbar-dark mt-2 fixed-top">
+		<nav class="navbar navbar-expand-lg navbar-dark mt-2 fixed-top" id="nav_bar">
 		  	<a class="navbar-brand ml-5 pr-3 pl-3" href="#top" id="jeri">Jerico</a>
 		  	<button class="navbar-toggler mr-3" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		    	<span class="navbar-toggler-icon"></span>
@@ -43,17 +44,77 @@
 			<img class="img-fluid mt-5 mt-md-0 rounded-circle" src="./images/me.jpg.JPEG" width="250" id="me">
 			<div class="pt-5 text-white">
 				<h3>Hi! I'm Jerico Magcale</h3>
-				<div>Mechanical Engineer</div>
-				<div>Future Software Engineer</div>
+				
+				<div>Full-Stack Web Developer</div>
 				<div>Pasig City, Philippines</div>
 
-				<h3 class="pt-5">Work Experience</h3>
-				<div>Food manufacturing</div>
-				<div>Product Conformity Assessment</div>
 			</div>
 		</div>
 
-		<div class="row d-md-block mt-md-5" id="coco">
+				<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0" id="projects">
+		  	<h4 id="scrollspyHeading1"></h4>
+		 		<p></p>
+		 		<div class="">
+
+		 			<div class="text-center card col-lg-8 d-none d-block p-0 container-fluid" >
+		 							
+		 				<div class="accordion" id="accordionExample">
+
+		 					<div class="card text-dark bg-secondary" id="bg-css">
+		 						<div class="card-header" id="headingOne">
+		 							<h2 class="mb-0"  >
+		 							    <button class="btn btn-link btn-block text-center text-white" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+		 							          PROJECTS
+		 							    </button>
+		 							</h2>
+		 						</div>
+
+		 					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+		 						<div class="card-body ">
+		 							<ul id="projects" class="text-dark mt-3">		 								    
+		 								<li class="project1">
+		 								    <a href="./projects/2/gitbasics.txt" target="blank" class="text-white">Git Basics</a>
+		 								</li>
+		 								<li class="project2">
+		 								    <a href="./projects/3/html-intro.html" target="blank" class="text-white">HTML - Introduction</a>
+		 								</li>
+		 								<li class="project3">
+		 								    <a href="./projects/4/index-4.html" target="blank" class="text-white">HTML - Attributes and Hyperlinks</a>
+		 								</li>
+		 								<li class="project3">
+		 								    <a href="./projects/5/contact-5.html" target="blank" class="text-white">HTML - Forms, Tables and Semantic HTML</a>
+		 								</li>
+		 								<li class="project3">
+		 								    <a href="./projects/6/index-6h.html" target="blank" class="text-white">CSS - Introduction and CSS Selectors</a>
+		 								</li>
+		 								<li class="project3">
+		 								    <a href="./projects/7/index-7h.html" target="blank" class="text-white">CSS - Common Styling Properties & Positioning</a>
+		 								</li>
+		 								<li class="project3">
+		 								    <a href="./projects/8/index-8h.html" target="blank" class="text-white">CSS - Box Model</a>
+		 								</li>
+		 								<li class="project3">
+		 								    <a href="./projects/9/index-9.html" target="blank" class="text-white">Bootstrap - Introduction and Simple Styles</a>
+		 								</li>
+		 								<li class="project3">
+		 								    <a href="./projects/10/index-10.html" target="blank" class="text-white">Bootstrap - Grid System</a>
+		 								</li>
+		 								<li class="project3">
+		 								    <a href="./projects/11/index-11h.html" target="blank" class="text-white"> Bootstrap - Flex</a>
+		 								</li>
+		 								<li class="project3">
+		 								    <a href="./projects/12/index-12.html" target="blank" class="text-white">Bootstrap - Components</a>
+		 								</li>
+		 							</ul>
+		 						</div>
+		 					</div>
+		 				</div>
+		 			</div>
+		 							 
+		 		</div>
+		</div>
+
+		<div class="row d-md-block mt-3 pb-5" id="coco">
 			<div class="offset-lg-3 col-lg-6">
 				<div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
 				  <ol class="carousel-indicators">
@@ -153,75 +214,14 @@
 		</div>
 
 
-		<div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true" class="scrollspy-example bg-body-tertiary p-3 rounded-2" tabindex="0" id="projects">
-		  	<h4 id="scrollspyHeading1"></h4>
-		 		<p></p>
-		 		<div class="">
 
-		 			<div class="text-center card col-lg-8 d-none d-block p-0 container-fluid" >
-		 							
-		 				<div class="accordion" id="accordionExample">
 
-		 					<div class="card text-dark">
-		 						<div class="card-header" id="headingOne">
-		 							<h2 class="mb-0"  >
-		 							    <button class="btn btn-link btn-block text-center text-primary" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-		 							          PROJECTS
-		 							    </button>
-		 							</h2>
-		 						</div>
-
-		 					<div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
-		 						<div class="card-body ">
-		 							<ul id="projects" class="text-dark mt-3">		 								    
-		 								<li class="project1">
-		 								    <a href="./projects/2/gitbasics.txt" target="blank" class="text-dark">Git Basics</a>
-		 								</li>
-		 								<li class="project2">
-		 								    <a href="./projects/3/html-intro.html" target="blank" class="text-dark">HTML - Introduction</a>
-		 								</li>
-		 								<li class="project3">
-		 								    <a href="./projects/4/index-4.html" target="blank" class="text-dark">HTML - Attributes and Hyperlinks</a>
-		 								</li>
-		 								<li class="project3">
-		 								    <a href="./projects/5/contact-5.html" target="blank" class="text-dark">HTML - Forms, Tables and Semantic HTML</a>
-		 								</li>
-		 								<li class="project3">
-		 								    <a href="./projects/6/index-6h.html" target="blank" class="text-dark">CSS - Introduction and CSS Selectors</a>
-		 								</li>
-		 								<li class="project3">
-		 								    <a href="./projects/7/index-7h.html" target="blank" class="text-dark">CSS - Common Styling Properties & Positioning</a>
-		 								</li>
-		 								<li class="project3">
-		 								    <a href="./projects/8/index-8h.html" target="blank" class="text-dark">CSS - Box Model</a>
-		 								</li>
-		 								<li class="project3">
-		 								    <a href="./projects/9/index-9.html" target="blank" class="text-dark">Bootstrap - Introduction and Simple Styles</a>
-		 								</li>
-		 								<li class="project3">
-		 								    <a href="./projects/10/index-10.html" target="blank" class="text-dark">Bootstrap - Grid System</a>
-		 								</li>
-		 								<li class="project3">
-		 								    <a href="./projects/11/index-11h.html" target="blank" class="text-dark"> Bootstrap - Flex</a>
-		 								</li>
-		 								<li class="project3">
-		 								    <a href="./projects/12/index-12.html" target="blank" class="text-dark">Bootstrap - Components</a>
-		 								</li>
-		 							</ul>
-		 						</div>
-		 					</div>
-		 				</div>
-		 			</div>
-		 							 
-		 		</div>
-		</div>
-
-		<div class="pt-5">
+		<div class="p-5">
 		  	<h4 id="scrollspyHeading2"></h4>
 		  		
-		  		<div class="p-5 col-lg-8 d-none d-block p-0 container-fluid rounded" id="tools">
+		  		<div class="p-5 col-lg-8 d-none d-block p-0 container-fluid rounded  bg-dark" id="tools">
 		  			<p></p>
-		  			<h2 class="mb-3 text-primary">Tools</h2>
+		  			<h2 class="mb-3 text-white">Tools</h2>
 		  			<div>
 		  				<div>
 		  					<img width="150" src="./images/images/gitlogo.png"/>
@@ -255,61 +255,68 @@
 		<div class=" pt-5 h-100" id="contact">
 			<div class="d-flex flex-column justify-content-center align-items-center">
 				<h3  class="text-white" id="cm">Contact Me</h3>
+
+				<a href="https://www.facebook.com/" target="blank" id="fb-link"><img src="./images/fb-logo1.jpg" width="100" class="rounded-circle"></a>
+
+				<h6 class="text-white p-3">or</h6>
 						
 				<form class="p-3 col-12 col-md-8 col-xl-4 rounded" id="form">
-						<div class="form-group">
-						    <label for="name">Name</label>
-						    <input type="email" class="form-control" id="name" placeholder="Your Name">
-						</div>
+					<div class="form-group p-2 pt-2">
+						<label for="name">Name</label>
+						<input type="email" class="form-control" id="name" placeholder="Your Name">
+					</div>
 
-						<div class="form-group">
-						    <label for="email">Email address</label>
-						    <input type="email" class="form-control" id="email" placeholder="name@example.com">
-						</div>
+					<div class="form-group p-2">
+						<label for="email">Email address</label>
+						<input type="email" class="form-control" id="email" placeholder="name@example.com">
+					</div>
 
-						<div class="form-group">
-						    <label for="contact_number">Contact Number</label>
-						    <input type="tel" class="form-control" id="contact_number" placeholder="+63 900 000 0000">
+					<div class="form-group p-2">
+						<label for="contact_number">Contact Number</label>
+						<input type="tel" class="form-control" id="contact_number" placeholder="+63 900 000 0000">
 						        
-						</div>
+					</div>
 
-						<div class="form-group">
-						    <label for="concern">Concern</label>
-						    <select name="concern" id="concern" class="form-control text-muted">
-						        <option value="email">Email</option>
-						        <option value="appointment">Appointment</option>
-						        <option value="follow_up">Follow-up</option>
-						    </select>
-						</div>
+					<div class="form-group p-2">
+						<label for="concern">Concern</label>
+						<select name="concern" id="concern" class="form-control text-muted">
+						    <option value="email">Email</option>
+						    <option value="appointment">Appointment</option>
+						    <option value="follow_up">Follow-up</option>
+						</select>
+					</div>
 
-						<div class="mb-5">
-						 	<button id="send" type="submit" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send</button>
-						</div>
+					<div class="form-group p-2">
+					    <label for="message">Message</label>
+					    <textarea name="message" rows="5" id="message" class="w-100"></textarea>  
+					</div>
+
+					<div class="mb-3 pt-2">
+						 <button id="send" type="button" class="btn btn-dark" data-toggle="modal" data-target="#exampleModal">Send</button>
+					</div>
 
 						    
-						    <div class="modal fade" tabindex="-1" id="exampleModal">
-						      <div class="modal-dialog">
-						        <div class="modal-content">
-						          <div class="modal-header">
+					<div class="modal fade" tabindex="-1" id="exampleModal">
+						<div class="modal-dialog">
+						    <div class="modal-content">
+						        <div class="modal-header">
 						            <h5 class="modal-title text-dark">Thank you for contacting!</h5>
 						            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-						              <span aria-hidden="true">&times;</span>
+						              	<span aria-hidden="true">&times;</span>
 						            </button>
-						          </div>
-						          <div class="modal-body text-dark">
-						            <p>Details Successfully Sent. Will get back to you ASAP.</p>
-						          </div>
-						          <div class="modal-footer">
-						            <button type="button" class="btn btn-secondary" data-dismiss="modal" id="closebtn">Close</button>
-						          </div>
 						        </div>
-						      </div>
+						        <div class="modal-body text-dark">
+						            <p>Details Successfully Sent. Will get back to you ASAP.</p>
+						        </div>
+						        <div class="modal-footer">
+						            <button type="button" class="btn btn-secondary" data-dismiss="modal" id="closebtn">Close</button>
+						        </div>
 						    </div>
+						</div>
+					</div>
 
 				</form>
 			</div>
-
-			<a href="#top" class="">back to Top</a>
 
 
 		</div>
