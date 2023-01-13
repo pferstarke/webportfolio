@@ -175,3 +175,7 @@ a:hover{
 #hi{
 	font-weight: bolder !important;
 }
+
+#credits{
+	margin-left: auto !important;
+}
