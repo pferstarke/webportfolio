@@ -8,16 +8,16 @@ html{
 }
 
 .content{
-	background-color: rgba(0, 0, 0, 0.4);
+	background-color: rgba(0, 0, 128, 0.4);
 	min-height: 100vh;
 }
 
 #nav_bar{
-	background-color: rgba(0, 255, 0, 0.2);
+	background-color: rgba(0, 0, 128, 0.6);
 }
 
 #me{
-	border:2px solid black;
+	border:2px solid white;
 }
 
 #jeri{
@@ -82,7 +82,7 @@ a:hover{
 #git{
 	width: 2px;
  	height: 50px;
-  	background: #41E803;
+  	background: #0255FA;
   	transition: width 2s;
 }
 
@@ -93,7 +93,7 @@ a:hover{
 #sub{
 	width: 2px;
  	height: 50px;
-  	background: #ADE803;
+  	background: #02FA24;
   	transition: width 2s;
 }
 
@@ -104,7 +104,7 @@ a:hover{
 #ht{
 	width: 2px;
  	height: 50px;
-  	background: #E4E803;
+  	background: #FAC902;
   	transition: width 2s;
 }
 
@@ -115,7 +115,7 @@ a:hover{
 #cs{
 	width: 2px;
  	height: 50px;
-  	background: #E88703;
+  	background: #FA7702;
   	transition: width 2s;
 }
 
@@ -126,7 +126,7 @@ a:hover{
 #bs{
 	width: 2px;
  	height: 50px;
-  	background: #E84C03;
+  	background: #FA4602;
   	transition: width 2s;
 }
 
@@ -157,4 +157,21 @@ a:hover{
   80% { transform: translate(-1px, -1px) rotate(1deg); }
   90% { transform: translate(1px, 2px) rotate(0deg); }
   100% { transform: translate(1px, -2px) rotate(-1deg); }
+}
+
+#cover-photo{
+	background-image: url(./images/cover.jpg);
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+#boutme{
+	font-weight: bold !important;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+#hi{
+	font-weight: bolder !important;
 }
